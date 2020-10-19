@@ -1,0 +1,64 @@
+.box{
+    position: relative;
+    width: 400px;
+    height: 257px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 500%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+ul li{
+    float: left;
+}
+/* ul li:nth-child(n+2){
+    display: none;
+} */
+ol{
+    list-style: none;
+    position: absolute;
+    bottom: 14px;
+    left: 2px;
+    width: 100%;
+    height: 20px;
+}
+ol li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 4px;
+    cursor: pointer;
+}
+img{
+    width: 400px;
+}
+.btn1,.btn2{
+    display: none;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    background-color: black;
+    opacity: .5;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.btn1{
+    position: absolute;
+    left: 0;
+    top: 110px;
+}
+.btn2{
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
